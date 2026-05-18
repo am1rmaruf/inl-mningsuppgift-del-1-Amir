@@ -1,0 +1,55 @@
+#ifndef PINS_H
+#define PINS_H
+
+#include <avr/io.h>
+
+#define RED_LED_DDR     DDRD
+#define RED_LED_PORT    PORTD
+#define RED_LED_PIN     PD3
+
+#define GREEN_LED_DDR   DDRD
+#define GREEN_LED_PORT  PORTD
+#define GREEN_LED_PIN   PD2
+
+#define GREEN_BUTTON_DDR     DDRB
+#define GREEN_BUTTON_PORT    PORTB
+#define GREEN_BUTTON_PINREG  PINB
+#define GREEN_BUTTON_PIN     PB4
+
+#define KEYPAD_ROW1_DDR   DDRB
+#define KEYPAD_ROW1_PORT  PORTB
+#define KEYPAD_ROW1_PIN   PB3
+
+#define KEYPAD_ROW2_DDR   DDRB
+#define KEYPAD_ROW2_PORT  PORTB
+#define KEYPAD_ROW2_PIN   PB2
+
+#define KEYPAD_ROW3_DDR   DDRB
+#define KEYPAD_ROW3_PORT  PORTB
+#define KEYPAD_ROW3_PIN   PB1
+
+#define KEYPAD_ROW4_DDR   DDRB
+#define KEYPAD_ROW4_PORT  PORTB
+#define KEYPAD_ROW4_PIN   PB0
+
+#define KEYPAD_COL1_DDR     DDRD
+#define KEYPAD_COL1_PORT    PORTD
+#define KEYPAD_COL1_PINREG  PIND
+#define KEYPAD_COL1_PIN     PD7
+
+#define KEYPAD_COL2_DDR     DDRD
+#define KEYPAD_COL2_PORT    PORTD
+#define KEYPAD_COL2_PINREG  PIND
+#define KEYPAD_COL2_PIN     PD6
+
+#define KEYPAD_COL3_DDR     DDRD
+#define KEYPAD_COL3_PORT    PORTD
+#define KEYPAD_COL3_PINREG  PIND
+#define KEYPAD_COL3_PIN     PD5
+
+#define KEYPAD_COL4_DDR     DDRD
+#define KEYPAD_COL4_PORT    PORTD
+#define KEYPAD_COL4_PINREG  PIND
+#define KEYPAD_COL4_PIN     PD4
+
+#endif
